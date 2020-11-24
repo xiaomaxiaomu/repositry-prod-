@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30b77189-6b55-426f-a087-eee51408bc92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/J2005SpcConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_consumer/src/test/java/com/qf/J2005SpcConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/J2005SpcDeptApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/mapper/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/src/main/resources/mapping/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_dept/src/test/java/com/qf/J2005SpcDeptApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/J2005SpcDeptapiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/po/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/vo/ActionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_deptapi/src/test/java/com/qf/J2005SpcDeptapiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/src/main/java/com/qf/J2005SpcEurekaserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_eurekaservice/src/test/java/com/qf/J2005SpcEurekaserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/java/com/qf/J2005SpcLocalconfigserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_localconfigserver/src/test/java/com/qf/J2005SpcLocalconfigserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/src/main/java/com/qf/J2005SpcRemoteconfigserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_remoteconfigserver/src/test/java/com/qf/J2005SpcRemoteconfigserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_twelve.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/src/main/java/com/qf/J2005SpcZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/j2005_spc_zuul/src/test/java/com/qf/J2005SpcZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/j2005_spc_eurekaservice/target/" />
+    <ignored path="$PROJECT_DIR$/j2005_spc_dept/target/" />
+    <ignored path="$PROJECT_DIR$/j2005_spc_deptapi/target/" />
+    <ignored path="$PROJECT_DIR$/j2005_spc_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/j2005_spc_localconfigserver/target/" />
+    <ignored path="$PROJECT_DIR$/j2005_spc_zuul/target/" />
+    <ignored path="$PROJECT_DIR$/j2005_spc_remoteconfigserver/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/j2005_spc_dept/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j2005_spc_consumer/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j2005_spc_zuul/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/controller/DeptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/service/DeptService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mapper.xml" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/j2005_spc_eurekaservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_eurekaservice/src/main/java/com/qf/J2005SpcEurekaserviceApplication.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_deptapi/pom.xml" />
+        <option value="$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/po/Dept.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/vo/ActionResult.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/service/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/mapper/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/src/main/resources/mapping/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/J2005SpcDeptApplication.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/J2005SpcConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/pom.xml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-dev.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-test.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-prod.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/java/com/qf/J2005SpcLocalconfigserverApplication.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/pom.xml" />
+        <option value="$PROJECT_DIR$/j2005_spc_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/j2005_spc_consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-dev.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-test.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-prod.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-dev.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-test.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-prod.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_zuul/src/main/java/com/qf/J2005SpcZuulApplication.java" />
+        <option value="$PROJECT_DIR$/j2005_spc_remoteconfigserver/pom.xml" />
+        <option value="$PROJECT_DIR$/j2005_spc_remoteconfigserver/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_dept/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_consumer/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/j2005_spc_zuul/src/main/resources/bootstrap.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="j2005_spc_localconfigserver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="j2005_spc_localconfigserver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="j2005_spc_zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="j2005_spc_zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="j2005_spc_twelve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="j2005_spc_twelve" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\qianfrng\j2005_spc_twelve\j2005_spc_localconfigserver\src\main\resources\shared" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.27820712" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.J2005SpcZuulApplication">
+    <configuration name="J2005SpcConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2005_spc_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.J2005SpcConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2005SpcConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2005_spc_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.j2005_spc_consumer.J2005SpcConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2005SpcDeptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2005_spc_dept" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.J2005SpcDeptApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2005SpcDeptapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2005_spc_deptapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.J2005SpcDeptapiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2005SpcEurekaserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2005_spc_eurekaservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.J2005SpcEurekaserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2005SpcLocalconfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2005_spc_localconfigserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.J2005SpcLocalconfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2005SpcRemoteconfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2005_spc_remoteconfigserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.J2005SpcRemoteconfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J2005SpcZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="j2005_spc_zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.J2005SpcZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30b77189-6b55-426f-a087-eee51408bc92" name="Default Changelist" comment="" />
+      <created>1606210360193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606210360193</updated>
+      <workItem from="1606210362069" duration="11733000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11733000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35022694" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.19112629" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.4107413" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23146747" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="8" visible="true" weight="0.19250426" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.4107413" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/j2005_spc_eurekaservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_eurekaservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/pojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_dept/src/main/resources/mapping/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/service/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/J2005SpcDeptApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_eurekaservice/src/main/java/com/qf/J2005SpcEurekaserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/J2005SpcConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/java/com/qf/J2005SpcLocalconfigserverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/consumerservice-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_zuul/src/main/java/com/qf/J2005SpcZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/zuulservice-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_remoteconfigserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_dept/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/po/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/vo/ActionResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_deptapi/src/main/java/com/qf/J2005SpcDeptapiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_remoteconfigserver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_localconfigserver/src/main/resources/shared/dept-producerservice-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_consumer/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_dept/src/main/java/com/qf/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_consumer/src/main/java/com/qf/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_deptapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j2005_spc_dept/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
